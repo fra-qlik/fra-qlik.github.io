@@ -3,15 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>My Qlik Sheet</title>
-  <script>
-    window.config = {
-      host: "o06ngb6mw4owh2t.us.qlikcloud.com",
-      webIntegrationId: "5dP9Ua-l17ZsutqKmtZb4nd3qEodFdFe"
-    };
-  </script>
   <script
     type="module"
-    src="https://unpkg.com/@qlik/embed-web-components@latest/dist/index.min.js"
+    src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components@1/dist/index.min.js"
     data-host="o06ngb6mw4owh2t.us.qlikcloud.com"
     data-web-integration-id="5dP9Ua-l17ZsutqKmtZb4nd3qEodFdFe">
   </script>
@@ -26,7 +20,8 @@
     app-id="67d8bc81-f471-40f6-b219-faf1ca0e7649"
     sheet-id="GtpPx"
     theme="Sense Horizon"
-    preview="true">
+    preview="true"
+    style="width:100%; height:600px; display:block;">
   </qlik-embed>
 </body>
 </html>
